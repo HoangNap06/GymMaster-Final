@@ -1,0 +1,9 @@
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gym_primary">#D32F2F</color> <!-- Đỏ đậm thương hiệu -->
+    <color name="gym_secondary">#FFEBEE</color> <!-- Hồng nhạt cho nền nút/thẻ phụ -->
+    <color name="gym_background">#F5F7FA</color> <!-- Xám xanh nhạt làm nền App -->
+    <color name="text_dark">#212121</color>
+    <color name="text_gray">#757575</color>
+</resources>

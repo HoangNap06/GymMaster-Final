@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Gym Master App</string>
+
+    <string name="exercise_illustration_desc">Exercise Illustration Image</string>
+    <string name="start_exercise_desc">Start Exercise Session</string>
+
+</resources>

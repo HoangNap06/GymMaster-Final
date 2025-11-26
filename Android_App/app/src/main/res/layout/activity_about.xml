@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-app"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GIỚI THIỆU &amp; LIÊN HỆ"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="#D32F2F"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Về Gym Master App"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#333"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gym Master được xây dựng nhằm cung cấp một giải pháp theo dõi và lên kế hoạch tập luyện cá nhân hóa, giúp bạn đạt được mục tiêu thể hình một cách khoa học và hiệu quả nhất. Ứng dụng tích hợp đầy đủ tính năng từ hướng dẫn bài tập chi tiết đến quản lý lịch sử tập luyện và đặt lịch huấn luyện viên."
+                android:textSize="16sp"
+                android:textColor="#555"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thông tin liên hệ"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#3F51B5"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Địa chỉ: Tổ 3 Tân Xuân Xuân Mai Chương Mỹ Hà Nội"
+                android:textSize="16sp"
+                android:textColor="#555"/>
+
+            <Button
+                android:id="@+id/btnContactPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gọi Hotline (0912 345 678)"
+                android:backgroundTint="#4CAF50"
+                android:textColor="@color/white"
+                android:layout_marginTop="16dp"/>
+
+            <Button
+                android:id="@+id/btnContactEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gửi Email Hỗ trợ"
+                android:backgroundTint="#2196F3"
+                android:textColor="@color/white"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

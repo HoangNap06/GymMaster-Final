@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- ID này (imgMuscleGroup) phải khớp với Adapter -->
+        <ImageView
+            android:id="@+id/imgMuscleGroup"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"/>
+
+        <!-- ID này (tvMuscleGroupName) phải khớp với Adapter -->
+        <TextView
+            android:id="@+id/tvMuscleGroupName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nhóm Cơ"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333"
+            android:gravity="center"
+            android:padding="12dp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
